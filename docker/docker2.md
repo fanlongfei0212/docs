@@ -1,8 +1,8 @@
-#<img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker 安装
+# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker 安装
 
 ---
 
-##Mac OS
+## Mac OS
 
 * 进入官网中docker的Mac版本获取中心:
 
@@ -10,7 +10,7 @@
 
 >选择Stable channel版本或Edge channel版本
 
-##Windows
+## Windows
 
 * 进入官网中docker的Windows版本获取中心:
 
@@ -18,7 +18,7 @@
 
 >选择Stable channel版本或Edge channel版本
 
-##CentOS
+## CentOS
 
 * 安装最新版本的docker-ce
 

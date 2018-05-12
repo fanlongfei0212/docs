@@ -1,4 +1,4 @@
-#<img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Volumes
+# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Volumes
 
 ---
 
@@ -10,7 +10,7 @@ Docker作为与外部环境所隔离的容器，而且一旦数据容器被销�
 的方式挂载到其他容器上，既能保存容器内部数据，还可以做到多容器之间的「数据共享」。
 **
 
-##挂载卷为目录
+## 挂载卷为目录
 
 * 不指定本机具体目录为挂载卷
 
@@ -50,7 +50,7 @@ $ docker run --name containerName -d -p hostPort:containerPort -v hostPath:conta
 $ docker container run --name containerName -d -p hostPort:containerPort -v hostPath:containerPath imageId
 ```
 
-##挂载卷为容器
+## 挂载卷为容器
 
 * 创建数据容器
 

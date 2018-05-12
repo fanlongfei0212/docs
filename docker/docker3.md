@@ -1,8 +1,8 @@
-#<img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker 基础命令
+# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker 基础命令
 
 ---
 
-##Docker search
+## Docker search
 
 * 搜索image
 
@@ -10,7 +10,7 @@
 $ docker search imageName
 ```
 
-##Docker pull
+## Docker pull
 
 * 获取image
 
@@ -18,7 +18,7 @@ $ docker search imageName
 $ docker pull imageName
 ```
 
-##Docker image
+## Docker image
 
 * 列出所有的image文件
 
@@ -60,7 +60,7 @@ $ docker image pull imageName:tag
 $ docker container run imageName
 ```
 
-##Docker run
+## Docker run
 
 * 运行image并生成容器文件
 
@@ -92,7 +92,7 @@ $ docker container run --name containerName -d --rm -p 80:80 imageId
 $ docker run --name containerName -d --rm -p 80:80 imageId
 ```
 
-##Docker container
+## Docker container
 
 * 查看运行的容器
 
@@ -150,7 +150,7 @@ $ docker rm conainerId
 $ docker container rm conainerId
 ```
 
-##Docker exec
+## Docker exec
 
 * 在正在运行的容器中执行命令
 
@@ -168,7 +168,7 @@ $ docker container exec -it containerId /bin/bash
 $ docker exec -it containerId /bin/bash
 ```
 
-##Docker logs
+## Docker logs
 
 * 查看日志
 
@@ -182,7 +182,7 @@ $ docker logs -f -t containerId
 $ docker container logs -f -t containerId
 ```
 
-##Docker cp
+## Docker cp
 
 * 从容器内拷贝文件到本机
 

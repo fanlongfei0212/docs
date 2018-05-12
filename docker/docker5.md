@@ -1,4 +1,4 @@
-#<img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Dockerfile
+# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Dockerfile
 
 ---
 
@@ -8,16 +8,20 @@
 进行「测试/生产」环境发布的时候，我们就需要去定制化构建自己的镜像
 **
 
-##Dockerfile概述
+## Dockerfile概述
 
+**
 Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的内容以及指定构建的工作目录进行Docker镜像
 的制作
+**
 
+**
 在本机指定目录中创建名称为Dockerfile的文件，文件中需要指定基础镜像「FROM」、镜像中运行指令的工作目录「WORKDIR」
 环境变量「ENV」，也可以加上自己（维护人）的信息「MAINTAINER」，镜像的构建命令「RUN」，镜像运行完成之后需要的执行
 命令「CMD」以及开放的端口「EXPOSE」等等信息
+**
 
-##基础文件
+## 基础文件
 
 * Dockerfile文件
 
@@ -28,7 +32,7 @@ Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的
 >.dockerignore文件的性质和.gitignore文件性质是一样，在构建Dockerimage的时候可以指定生成image的上下文目录中
 >哪些文件是需要被忽略掉的
 
-##Dockerfile基本结构
+## Dockerfile基本结构
 
 * FROM
 
