@@ -5,6 +5,10 @@
 ## Docker基础概念
 
 **
+Docker可以在Liunx、Mac OS、Windows上运行，如果是在Liunx上运行，内核版本要在3.10以上
+**
+
+**
 Docker是开源的「容器引擎」，Docker的出现解决了环境不一致的问题，Docker是和外部完全隔离的容器，任何服务
 都可以在Docker中运行，并且无需考虑服务器环境对服务可能会造成的影响。Docker的核心思想是「build」、
 「ship」、「run」，即构建、运输、运行。Docker的思想来自于集装箱，Docker将各种各样的货物被集装箱
