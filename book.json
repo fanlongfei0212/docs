@@ -1,0 +1,18 @@
+{
+  "title": "Mr.F_Docs",
+  "language": "zh-hans",
+  "plugins": [
+    "-splitter",
+    "-lunr",
+    "search-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters-small"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy Mr.F",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}

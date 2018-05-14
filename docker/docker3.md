@@ -6,7 +6,7 @@
 
 * 搜索image
 
-```
+``` bash
 $ docker search imageName
 ```
 
@@ -14,7 +14,7 @@ $ docker search imageName
 
 * 获取image
 
-```
+``` bash
 $ docker pull imageName
 ```
 
@@ -22,7 +22,7 @@ $ docker pull imageName
 
 * 列出所有的image文件
 
-```
+``` bash
 $ docker image ls
 或
 $ docker images
@@ -32,7 +32,7 @@ $ docker images
 
 >imageId 可以是多个，用空格隔开
 
-```
+``` bash
 $ docker image rm imageId
 或
 $ docker rmi imageId
@@ -44,9 +44,9 @@ $ docker rmi imageId
 
 >如果不指定tag，默认指定tag为latest
 
->运行image文件(如果docker发现本地没有指定运行的image文件，会自动从Docker Hub上进行抓取
+>运行image文件，如果docker发现本地没有指定运行的image文件，会自动从Docker Hub上进行抓取
 
-```
+``` bash
 $ docker image pull library/imageName
 或
 $ docker image pull library/imageName:tag
@@ -56,7 +56,7 @@ $ docker image pull imageName
 $ docker image pull imageName:tag
 ```
 
-```
+``` bash
 $ docker container run imageName
 ```
 
@@ -70,7 +70,7 @@ $ docker container run imageName
 
 >--name 参数表示给生成的容器文件命名，名称唯一
 
-```
+``` bash
 $ docker container run --name containerName -d -p 80:80 imageId
 或
 $ docker run --name containerName -d -p 80:80 imageId
@@ -86,7 +86,7 @@ $ docker run --name containerName -d -p 80:80 imageId
 
 >--rm 参数表示在容器停止运行后自动删除生成的容器文件
 
-```
+``` bash
 $ docker container run --name containerName -d --rm -p 80:80 imageId
 或
 $ docker run --name containerName -d --rm -p 80:80 imageId
@@ -96,7 +96,7 @@ $ docker run --name containerName -d --rm -p 80:80 imageId
 
 * 查看运行的容器
 
-```
+``` bash
 $ docker ps
 或
 $ docker container ls
@@ -104,7 +104,7 @@ $ docker container ls
 
 * 查看所有容器，包括运行和停止的
 
-```
+``` bash
 $ docker ps --all
 或
 $ docker container ls --all
@@ -114,7 +114,7 @@ $ docker container ls --all
 
 >containerId 可以是多个，用空格隔开
 
-```
+``` bash
 $ docker container stop containerId
 或
 $ docker stop containerId
@@ -124,7 +124,7 @@ $ docker stop containerId
 
 >containerId 可以是多个，用空格隔开
 
-```
+``` bash
 $ docker container kill containerId
 或
 $ docker kill containerId
@@ -134,7 +134,7 @@ $ docker kill containerId
 
 >containerId 可以是多个，用空格隔开
 
-```
+``` bash
 $ docker container start containerId
 或
 $ docker start containerId
@@ -144,7 +144,7 @@ $ docker start containerId
 
 >containerId 可以是多个，用空格隔开
 
-```
+``` bash
 $ docker rm conainerId
 或
 $ docker container rm conainerId
@@ -154,7 +154,7 @@ $ docker container rm conainerId
 
 * 在正在运行的容器中执行命令
 
-```
+``` bash
 $ docker container exec [options] container command [arg...]
 或
 $ docker exec [options] container command [arg...]
@@ -162,7 +162,7 @@ $ docker exec [options] container command [arg...]
 
 >例如:进入正在运行的容器
 
-```
+``` bash
 $ docker container exec -it containerId /bin/bash
 或
 $ docker exec -it containerId /bin/bash
@@ -176,7 +176,7 @@ $ docker exec -it containerId /bin/bash
 
 >-f 参数以流的方式进行持续输出
 
-```
+``` bash
 $ docker logs -f -t containerId
 或
 $ docker container logs -f -t containerId
@@ -186,7 +186,7 @@ $ docker container logs -f -t containerId
 
 * 从容器内拷贝文件到本机
 
-```
+``` bash
 $ docker container cp containerId:containerPath hostPath
 或
 $ docker cp containerId:containerPath hostPath
@@ -194,7 +194,7 @@ $ docker cp containerId:containerPath hostPath
 
 * 从本机拷贝文件到容器内
 
-```
+``` bash
 $ docker container cp hostPath containerId:containerPath
 或
 $ docker cp hostPath containerId:containerPath

@@ -18,7 +18,7 @@ Docker作为与外部环境所隔离的容器，而且一旦数据容器被销�
 
 >如果指定的容器内部地址不存在则容器会进行自动创建
 
-```
+``` bash
 $ docker run --name containerName -d -p hostPort:containerPort -v containerPath imageId
 或
 $ docker container run --name containerName -d -p hostPort:containerPort -v containerPath imageId
@@ -26,7 +26,7 @@ $ docker container run --name containerName -d -p hostPort:containerPort -v cont
 
 >查看docker生成在宿主机的挂载卷地址，容器信息里Mounts中Source就是宿主机上挂载卷的地址
 
-```
+``` bash
 $ docker inspect containerid 
 ```
 
@@ -34,7 +34,7 @@ $ docker inspect containerid
 
 >如果指定的容器内部地址不存在则容器会进行自动创建
 
-```
+``` bash
 $ docker run --name containerName -d -p hostPort:containerPort -v $PWD:containerPath imageId
 或
 $ docker container run --name containerName -d -p hostPort:containerPort -v $PWD:containerPath imageId
@@ -44,7 +44,7 @@ $ docker container run --name containerName -d -p hostPort:containerPort -v $PWD
 
 >如果指定的容器内部地址不存在则容器会进行自动创建
 
-```
+``` bash
 $ docker run --name containerName -d -p hostPort:containerPort -v hostPath:containerPath imageId
 或
 $ docker container run --name containerName -d -p hostPort:containerPort -v hostPath:containerPath imageId
@@ -54,7 +54,7 @@ $ docker container run --name containerName -d -p hostPort:containerPort -v host
 
 * 创建数据容器
 
-```
+``` bash
 $ docker create --name containerdataName -v hostPath:containerPath imageId
 或
 $ docker container --name containerdataName -v hostPath:containerPath imageId
@@ -62,7 +62,7 @@ $ docker container --name containerdataName -v hostPath:containerPath imageId
 
 * 将数据容器作为挂载卷
 
-```
+``` bash
 $ docker run --name containerName -d -p hostPort:containerPort -volumes-from dataContainerId imageId
 或
 $ docker container run --name containerName -d -p hostPort:containerPort -volumes-from dataContainerId imageId

@@ -22,13 +22,13 @@
 
 * 安装最新版本的docker-ce
 
-```
+``` bash
 $ sudo yum install docker-ce
 ```
 
 * 安装指定版本的docker-ce
 
-```
+``` bash
 $ sudo yum install docker-ce-<VERSION STRING>
 ```
 
@@ -36,19 +36,19 @@ $ sudo yum install docker-ce-<VERSION STRING>
 
 >service命令:
 
-```
+``` bash
 $ sudo service docker start
 ```
 
 >systemctl命令:
 
-```
+``` bash
 $ sudo systemctl start docker
 ```
 
 * 安装完成之后执行命令，验证docker是否安装成功
 
-```
+``` bash
 $ docker version
 或
 $ docker info
@@ -56,18 +56,18 @@ $ docker info
 
 * 卸载docker包
 
-```
+``` bash
 $ sudo yum remove docker-ce
 ```
 * 卸载docker包并且删除image、container、volumes
 
-```
+``` bash
 $ sudo rm -rf /var/lib/docker
 ```
 
 * Docker需要用户具有root权限，如果是非root用户操作，除了在docker命令前加上sudo这种方式以外，还可以将当前操作docker的用户添加到docker用户组
 
-```
+``` bash
 $ sudo usermod -aG docker userName
 ```
 

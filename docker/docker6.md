@@ -16,13 +16,13 @@ DockerCompose是官方提供的「服务编排」工具。通过Dockerfile可以
 
 * 使用yum安装DockerCompose
 
-```
+``` bash
 $ sudo yum -y install docker-compose
 ```
 
 * 卸载yum安装的DockerCompose
 
-```
+``` bash
 $ sudo yum remove docker-compose
 ```
 
@@ -49,20 +49,20 @@ Github地址:[https://github.com/JpressProjects/jpress/tree/alpha/wars](https://
 
 1.创建一个干净的目录结构，作为docker-compose.yml的上下文
 
-```
+``` bash
 $ mkdir docker_learn
 ```
 
 2.创建Mysql、Nginx、Tomcat的各个目录，在各个目录中，会编写简单的Dockerfile文件，各个目录作为各个Dockerfile的上下文
 
-```
+``` bash 
 $ cd docker_learn
 $ mkdir mysql nginx tomcat
 ```
 
 3.进入Mysql目录，创建Dockerfile文件以及data目录，data目录作为Mysql的挂载卷，管理Mysql的数据，使用Dockerfile进行image的生成
 
-```
+``` bash
 $ cd /docker_learn/mysql
 $ touch Dockerfile
 $ mkdir data
@@ -70,7 +70,7 @@ $ mkdir data
 
 >Dockerfile文件内容:
 
-```
+``` yml
 FROM mysql:5.7
 ENV port 3306
 EXPOSE ${port}
@@ -78,7 +78,7 @@ EXPOSE ${port}
 
 4.进入nginx目录，创建Dockerfile文件以及data目录，data目录作为Nginx的挂载卷，管理Nginx的数据，使用Dockerfile进行image的生成
 
-```
+``` bash
 $ cd /docker_learn/nginx
 $ touch Dockerfile
 $ mkdir data
@@ -88,14 +88,14 @@ $ touch learn.conf
 
 >Dockerfile文件内容:
 
-```
+``` yml
 FROM nginx:latest
 COPY ./data/learn.conf /etc/nginx/conf.d/learn.conf
 ```
 
 >learn.conf文件内容
 
-```
+``` conf
 server{
 
     listen  80;
@@ -112,7 +112,7 @@ server{
 
 5.进入tomcat目录，创建Dockerfile文件以及data目录，data目录作为Tomcat的挂载卷，管理Tomcat的数据，使用Dockerfile进行image的生成
 
-```
+``` bash
 $ cd /docker_learn/tomcat
 $ touch Dockerfile
 $ mkdir data
@@ -122,21 +122,21 @@ $ wget https://github.com/JpressProjects/jpress/raw/alpha/wars/jpress-web-newest
 
 >Dockerfile文件内容:
 
-```
+``` yml
 FROM tomcat:latest
 COPY ./data/jpress-web-newest.war /usr/local/tomcat/webapps/
 ```
 
 6.回到docker-compose的上下文目录，创建docker-compose.yml文件
 
-```
+``` bash
 $ cd /docker_learn
 $ touch docker-compose.yml
 ```
 
 >docker-compose.yml内容
 
-```
+``` yml
 version: '2'
 
 services: 
@@ -175,7 +175,7 @@ services:
 
 >-d 后台启动
 
-```
+``` bash
 $ docker-compose -f docker-compose.yml up -d
 ```
 
@@ -215,7 +215,7 @@ $ docker-compose -f docker-compose.yml up -d
 >重启docker restart 刚才记录的容器Id
 >重新进行访问，访问地址：hostIp/jpress-web-newest，如果跳转到了以下页面，说明成功
 
-```
+``` bash
 $ docker ps
 $ docker restart tomcat_containerId
 ```

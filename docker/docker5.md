@@ -29,8 +29,9 @@ Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的
 
 * .dockerignore文件
 
->.dockerignore文件的性质和.gitignore文件性质是一样，在构建Dockerimage的时候可以指定生成image的上下文目录中
->哪些文件是需要被忽略掉的
+>.dockerignore文件的性质和.gitignore文件性质是一样
+
+>在构建Docker image的时候可以指定生成image的上下文目录中,哪些文件是需要被忽略掉的
 
 ## Dockerfile基本结构
 
@@ -38,7 +39,7 @@ Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的
 
 >指定基础image，也可以理解为此时构建的image要以什么image为基础
 
-```
+``` yml
 FROM imageName:tag
 ```
 
@@ -46,7 +47,7 @@ FROM imageName:tag
 
 >维护人员信息
 
-```
+``` yml
 MAINTAINER name email
 ```
 
@@ -56,7 +57,7 @@ MAINTAINER name email
 >可以使用环境变量的指令：
 >![docker_dockerfile_env](../images/docker_content/docker_dockerfile_env.png)
 
-```
+``` yml
 ENV port 80
 ```
 
@@ -64,7 +65,7 @@ ENV port 80
 
 >在当前基础镜像中执行你输入的命令
 
-```
+``` yml
 RUN apt-get -y install nginx
 ```
 
@@ -72,7 +73,7 @@ RUN apt-get -y install nginx
 
 >接下来命令的工作目录，相当于cd
 
-```
+``` yml
 WORKDIR /etc/nginx/conf.d
 ```
 
@@ -80,7 +81,7 @@ WORKDIR /etc/nginx/conf.d
 
 >将宿主机文件copy至当前基础image目录
 
-```
+``` yml
 COPY ./text.conf /etc/nginx/conf.d/
 ```
 
@@ -92,7 +93,7 @@ COPY ./text.conf /etc/nginx/conf.d/
 >卷目录是docker指定的地址，和在使用docker run命令运行image生成container不指定本机挂载卷目录的
 >效果是一样的「[Docker Volumes -> 不指定本机具体目录为挂载卷](docker4.md)」
 
-```
+``` yml
 VOLUME /etc/nginx/config.d/
 ```
 
@@ -101,6 +102,6 @@ VOLUME /etc/nginx/config.d/
 >指定启动容器时执行的命令,每个 Dockerfile 只能有一条 CMD 命令。如果指定了多条命令,只有最后一条会被执行。
 >如果用户启动容器时候指定了运行的命令,则会覆盖掉 CMD 指定的命令。
 
-```
+``` yml
 CMD ["executable","param1","param2"]
 ```
