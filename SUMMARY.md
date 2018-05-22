@@ -7,3 +7,4 @@
     * [Docker Volumes](docker/docker4.md)
     * [Docker Dockerfile](docker/docker5.md)
     * [Docker Compose](docker/docker6.md)
+* [IntelliJ IDEA](idea/idea1.md)
