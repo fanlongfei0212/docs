@@ -1,4 +1,4 @@
-# IntelliJ IDEA
+# <img src="../images/icon/IntelliJIDEA.png" style="zoom:2%" />IntelliJ IDEA
 
 ## 热部署
 
