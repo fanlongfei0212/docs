@@ -21,3 +21,13 @@
 ![SecurityCenter](../images/wechat_content/wechat-message9.png)
 
 ![SecurityCenter](../images/wechat_content/wechat-message10.png)
+
+3.审核通过，使用模板消息
+
+>审核通过后，，会有消息通知，也可以从模板库进行添加，添加完成之后，进行使用
+
+![SecurityCenter](../images/wechat_content/wechat-message16.png)
+
+![SecurityCenter](../images/wechat_content/wechat-message17.png)
+
+![SecurityCenter](../images/wechat_content/wechat-message18.png)
