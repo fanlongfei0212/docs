@@ -14,3 +14,4 @@
         * [使用模板库中消息模板](wechat/wechat3.md)
         * [自定义消息模板](wechat/wechat4.md)
         * [模板消息接口](wechat/wechat5.md)
+* [SpringBoot](springboot/springboot1.md)
