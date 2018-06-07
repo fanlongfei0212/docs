@@ -27,6 +27,15 @@ spring-boot-starter
 当我们需要使用一些特定的配置，不想去使用SpringBoot提供的通过指定的依赖进行的自动化配置的时候，我们有两种选择，
 一种是使用显示的配置进行覆盖SpringBoot提供的自动配置，还有一种就是使用属性去精细SpringBoot的配置
 
+## 属性注入
+
+可以使用@ConfigurationProperties(prefix="xxx")进行属性注入，可以注入application.properties、application.yml支持的任一属性源位置
+
+## 不通环境下的不通配置
+
+使用@Profile进行不通环境下的配置 开启/关闭
+在类头使用@Profile("production")指定某些配置类只有在指定的环境中（比如：application.properties中使用spring.profiles.active=production）进行开启
+
 ## Actuator
 
 ## 资源
