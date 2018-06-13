@@ -14,5 +14,8 @@
         * [自定义消息模板](wechat/wechat4.md)
         * [模板消息接口](wechat/wechat5.md)
 * [HTTP](http/http1.md)
+* [GitBook](gitbook/gitbook1.md)
+    * [GitBook 安装](gitbook/gitbook2.md)
+    * [GitBook 使用](gitbook/gitbook3.md)
 * [SpringBoot](springboot/springboot1.md)
 * [IntelliJ IDEA](idea/idea1.md)
