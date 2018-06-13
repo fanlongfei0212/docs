@@ -20,6 +20,20 @@
 
 ## CentOS
 
+* 设置yum
+
+```bash
+$ sudo yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+```
+
+```bash
+$ sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+```
+
 * 安装最新版本的docker-ce
 
 ``` bash

@@ -44,6 +44,10 @@ Docker是开源的「容器引擎」，Docker的出现解决了环境不一致�
 
 [https://www.docker-cn.com/](https://www.docker-cn.com/)
 
+* Docker·GitBook资源
+
+[https://yeasy.gitbooks.io/docker_practice/content/](https://yeasy.gitbooks.io/docker_practice/content/)
+
 * Docker网易蜂巢国内镜像站
 
 [https://c.163yun.com/hub#/m/home/](https://c.163yun.com/hub#/m/home/)
