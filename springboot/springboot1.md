@@ -31,7 +31,7 @@ spring-boot-starter
 
 可以使用@ConfigurationProperties(prefix="xxx")进行属性注入，可以注入application.properties、application.yml支持的任一属性源位置
 
-## 不通环境下的不通配置
+## 不同环境下的不同配置
 
 使用@Profile进行不通环境下的配置 开启/关闭
 在类头使用@Profile("production")指定某些配置类只有在指定的环境中（比如：application.properties中使用spring.profiles.active=production）进行开启
