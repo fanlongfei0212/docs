@@ -1,4 +1,4 @@
-# <img src="http://gitbookresource.fanlongfei.com/data.png" style="zoom:15%" />资料整理
+# <img src="http://gitbookresource.fanlongfei.com/data.png" width="30" height="30" />资料整理
 
 ---
 
