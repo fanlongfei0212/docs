@@ -35,5 +35,5 @@
 <img src="http://gitbookresource.fanlongfei.com/IntelliJIDEA.png" style="zoom:6%" />
 <img src="http://gitbookresource.fanlongfei.com/git.jpeg" style="zoom:19%" />
 <img src="http://gitbookresource.fanlongfei.com/aliyun.png" style="zoom:33%" />
-<img src="http://gitbookresource.fanlongfei.com/icon/gradle.png" style="zoom:7%" />
+<img src="http://gitbookresource.fanlongfei.com/gradle.png" style="zoom:7%" />
 <img src="http://gitbookresource.fanlongfei.com/liunx.jpg" style="zoom:9%" />
