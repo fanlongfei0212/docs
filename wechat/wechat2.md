@@ -1,4 +1,4 @@
-# <img src="../images/icon/wechat.jpeg" style="zoom:3%" />基本配置
+# <img src="../images/icon/wechat.jpeg" width="30" height="30" />基本配置
 
 ---
 
@@ -8,7 +8,7 @@
 
 1.从左侧菜单「设置」中点击「安全中心」进入安全中心设置
 
-<img src="../images/wechat_content/wechat-base1.png" style="zoom:50%" />
+<img src="../images/wechat_content/wechat-base1.png" width="260" height="170" />
 
 2.点击「管理员和运营者设置」
 
@@ -26,7 +26,7 @@
 
 ![SecurityCenter](../images/wechat_content/wechat-base4.png)
 
-<img src="../images/wechat_content/wechat-base5.png" style="zoom:30%" />
+<img src="../images/wechat_content/wechat-base5.png" width="280" height="290" />
 
 ## AppSecret配置
 
@@ -34,7 +34,7 @@
 
 1.从左侧菜单「开发」中点击「基本配置」进入基本配置
 
-<img src="../images/wechat_content/wechat-base6.png" style="zoom:50%" />
+<img src="../images/wechat_content/wechat-base6.png" width="260" height="180" />
 
 2.点击重置（我已经设置过AppSecret，第一次应该是启用），启用/重置 后需要管理员进行扫码验证，然后输入微信公众号密码进行密码验证
 
@@ -46,13 +46,11 @@
 
 ## 设置IP白名单
 
-**
-通过开发者ID及密码调用获取access_token接口时，需要设置访问来源IP为白名单。一般都是将服务器的测试、正式公网IP地址进行白名单的添加
-**
+**通过开发者ID及密码调用获取access_token接口时，需要设置访问来源IP为白名单。一般都是将服务器的测试、正式公网IP地址进行白名单的添加**
 
 1.从左侧菜单「开发」中点击「基本配置」进入基本配置
 
-<img src="../images/wechat_content/wechat-base6.png" style="zoom:50%" />
+<img src="../images/wechat_content/wechat-base6.png" width="260" height="180" />
 
 2.点击查看
 
@@ -66,21 +64,15 @@
 
 ## 配置「业务域名」、「JS接口安全域名」、「网页授权域名」
 
-**
-设置业务域名后，在微信内访问该域名下页面时，不会被重新排版。用户在该域名上进行输入时，不会出现防诈骗等提示
-**
+**设置业务域名后，在微信内访问该域名下页面时，不会被重新排版。用户在该域名上进行输入时，不会出现防诈骗等提示**
 
-**
-设置JS接口安全域名后，公众号开发者可在该域名下调用微信开放的JS接口（微信JsSdk）
-**
+**设置JS接口安全域名后，公众号开发者可在该域名下调用微信开放的JS接口（微信JsSdk）**
 
-**
-设置网页授权域名后，用户在网页授权页同意授权给公众号后，微信会将授权数据传给一个回调页面
-**
+**设置网页授权域名后，用户在网页授权页同意授权给公众号后，微信会将授权数据传给一个回调页面**
 
 1.从左侧菜单「设置」中点击「公众号设置」进入公众号设置，点击「功能设置」
 
-<img src="../images/wechat_content/wechat-base11.png" style="zoom:50%" />
+<img src="../images/wechat_content/wechat-base11.png" width="260" height="170" />
 
 ![Base](../images/wechat_content/wechat-base12.png)
 
