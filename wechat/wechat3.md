@@ -1,4 +1,4 @@
-# <img src="../images/icon/wechat.jpeg" style="zoom:3%" />模板消息
+# <img src="../images/icon/wechat.jpeg" width="30" height="30" />模板消息
 
 ---
 
