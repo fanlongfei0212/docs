@@ -1,18 +1,14 @@
-# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Compose
+# <img src="../images/icon/docker.jpeg" width="30" height="30" />Docker Compose
 
 ---
 
-**
-DockerCompose是官方提供的「服务编排」工具。通过Dockerfile可以进行制作我们需要的镜像，来定义当我们需要的
+**DockerCompose是官方提供的「服务编排」工具。通过Dockerfile可以进行制作我们需要的镜像，来定义当我们需要的
 容器服务。当我们需要定义多个容器服务的时候，比如来部署我们的微服务架构的时候，就可以使用DockerCompose
-来进行「服务编排」
-**
+来进行「服务编排**
 
 ## 安装DockerCompose
 
-**
-一般在Mac和Windows下安装Docker以后是包含DockerCompose的，不用单独安装，但liunx下需要单独安装DockerCompose
-**
+**一般在Mac和Windows下安装Docker以后是包含DockerCompose的，不用单独安装，但liunx下需要单独安装DockerCompose**
 
 * 使用yum安装DockerCompose
 
@@ -28,24 +24,18 @@ $ sudo yum remove docker-compose
 
 ## docker-compose.yml文件
 
-**
-在docker-compose.ymu文件中定义各个容器之间依赖关系，进行服务编排，使用docker-compose中的指令对各个容器进行相关操作，
+**在docker-compose.ymu文件中定义各个容器之间依赖关系，进行服务编排，使用docker-compose中的指令对各个容器进行相关操作，
 比如image的来源是从registry进行获取还是使用Dockerfile进行制作、外部端口与容器内部端口映射、image启动时生成容器需要
 指定的环境变量以及容器的挂载卷等等操作，都在docker-compose.yml文件中进行指令定义，可以将这些指令理解为类似于使用单独
-「$ docker run」的操作命令，只不过将这些指令定义在了docker-compose.yml中
-**
+「$ docker run」的操作命令，只不过将这些指令定义在了docker-compose.yml中**
 
 ## demo
 
-**
-使用开源的Jpress做docker-compose的demo示例，使用从GitHub上获取的jpress-web-newest.war，用到的Docker image
-包括Mysql、Tomcat、Nginx，可以从Docker Hub上进行获取，也可以从国内的其他镜像中心进行获取
-**
+**使用开源的Jpress做docker-compose的demo示例，使用从GitHub上获取的jpress-web-newest.war，用到的Docker image
+包括Mysql、Tomcat、Nginx，可以从Docker Hub上进行获取，也可以从国内的其他镜像中心进行获取**
 
-**
-jpress-web-newest.war的
-Github地址:[https://github.com/JpressProjects/jpress/tree/alpha/wars](https://github.com/JpressProjects/jpress/tree/alpha/wars)
-**
+**jpress-web-newest.war的
+Github地址:[https://github.com/JpressProjects/jpress/tree/alpha/wars](https://github.com/JpressProjects/jpress/tree/alpha/wars)**
 
 1.创建一个干净的目录结构，作为docker-compose.yml的上下文
 

@@ -1,4 +1,4 @@
-# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker 安装
+# <img src="../images/icon/docker.jpeg" width="30" height="30" />Docker 安装
 
 ---
 

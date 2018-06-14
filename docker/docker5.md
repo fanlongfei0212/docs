@@ -1,25 +1,19 @@
-# <img src="../images/icon/docker.jpeg" style="zoom:5%" />Docker Dockerfile
+# <img src="../images/icon/docker.jpeg" width="30" height="30" />Docker Dockerfile
 
 ---
 
-**
-往往常用的一些镜像在Docker hub上或者其他的「镜像仓库」都有提供，但是在某种情况的时候我们需要自己进行镜像
+**往往常用的一些镜像在Docker hub上或者其他的「镜像仓库」都有提供，但是在某种情况的时候我们需要自己进行镜像
 的构建，比如，根据自己的特性化需求，或是根据工作中针对我们自己的Java(或者php、python等)服务使用Docker
-进行「测试/生产」环境发布的时候，我们就需要去定制化构建自己的镜像
-**
+进行「测试/生产」环境发布的时候，我们就需要去定制化构建自己的镜像**
 
 ## Dockerfile概述
 
-**
-Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的内容以及指定构建的工作目录进行Docker镜像
-的制作
-**
+**Dockerfile作为构建镜像的基础文件，Docker通过Dockerfile文件中的内容以及指定构建的工作目录进行Docker镜像
+的制作**
 
-**
-在本机指定目录中创建名称为Dockerfile的文件，文件中需要指定基础镜像「FROM」、镜像中运行指令的工作目录「WORKDIR」
+**在本机指定目录中创建名称为Dockerfile的文件，文件中需要指定基础镜像「FROM」、镜像中运行指令的工作目录「WORKDIR」
 环境变量「ENV」，也可以加上自己（维护人）的信息「MAINTAINER」，镜像的构建命令「RUN」，镜像运行完成之后需要的执行
-命令「CMD」以及开放的端口「EXPOSE」等等信息
-**
+命令「CMD」以及开放的端口「EXPOSE」等等信息**
 
 ## 基础文件
 
