@@ -1,10 +1,8 @@
-# <img src="../images/icon/IntelliJIDEA.png" style="zoom:2%" />IntelliJ IDEA
+# <img src="../images/icon/IntelliJIDEA.png" width="30" height="30" />IntelliJ IDEA
 
 ---
 
-**
-目前业界最好用的开发工具，各种插件、智能代码提示，对主流框架的支持等等
-**
+**目前业界最好用的开发工具，各种插件、智能代码提示，对主流框架的支持等等**
 
 <img src="../images/icon/IntelliJIDEA.png" style="zoom:25%" />
 
