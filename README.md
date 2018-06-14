@@ -27,13 +27,13 @@
 
 **Liunx基础命令以及相关资料**
 
-<img src="http://gitbookresource.fanlongfei.com/docker.jpeg" style="zoom:12%" />
-<img src="http://gitbookresource.fanlongfei.com/wechat.jpeg" style="zoom:8%" />
-<img src="http://gitbookresource.fanlongfei.com/http.png" style="zoom:33%" />
-<img src="http://gitbookresource.fanlongfei.com/gitbook.png" style="zoom:25%" />
-<img src="http://gitbookresource.fanlongfei.com/java.png" style="zoom:33%" />
-<img src="http://gitbookresource.fanlongfei.com/IntelliJIDEA.png" style="zoom:6%" />
-<img src="http://gitbookresource.fanlongfei.com/git.jpeg" style="zoom:19%" />
-<img src="http://gitbookresource.fanlongfei.com/aliyun.png" style="zoom:33%" />
-<img src="http://gitbookresource.fanlongfei.com/gradle.png" style="zoom:7%" />
-<img src="http://gitbookresource.fanlongfei.com/liunx.jpg" style="zoom:9%" />
+<img src="http://gitbookresource.fanlongfei.com/docker.jpeg" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/wechat.jpeg" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/http.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/gitbook.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/java.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/IntelliJIDEA.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/git.jpeg" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/aliyun.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/gradle.png" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/liunx.jpg" width="70" height="70" />
