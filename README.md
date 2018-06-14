@@ -27,7 +27,7 @@
 
 **Liunx基础命令以及相关资料**
 
-<img src="http://gitbookresource.fanlongfei.com/docker.jpeg" width="70" height="70" />
+**<img src="http://gitbookresource.fanlongfei.com/docker.jpeg" width="70" height="70" />
 <img src="http://gitbookresource.fanlongfei.com/wechat.jpeg" width="70" height="70" />
 <img src="http://gitbookresource.fanlongfei.com/http.png" width="70" height="70" />
 <img src="http://gitbookresource.fanlongfei.com/gitbook.png" width="70" height="70" />
@@ -36,4 +36,4 @@
 <img src="http://gitbookresource.fanlongfei.com/git.jpeg" width="70" height="70" />
 <img src="http://gitbookresource.fanlongfei.com/aliyun.png" width="70" height="70" />
 <img src="http://gitbookresource.fanlongfei.com/gradle.png" width="70" height="70" />
-<img src="http://gitbookresource.fanlongfei.com/liunx.jpg" width="70" height="70" />
+<img src="http://gitbookresource.fanlongfei.com/liunx.jpg" width="70" height="70" />**
