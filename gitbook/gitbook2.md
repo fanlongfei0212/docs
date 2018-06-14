@@ -1,4 +1,4 @@
-# <img src="../images/icon/gitbook.png" style="zoom:10%" />GitBook服务安装
+# <img src="../images/icon/gitbook.png" width="30" height="30" />GitBook服务安装
 
 ---
 
@@ -115,10 +115,8 @@ $ ./npm -v
 
 ![GitBookCentOSInstall](../images/gitbook_content/gitbook-CentOS1-6.png)
 
-**
-这个时候就不会出现刚才的错误了，原因是因为第一次node没有设置为全局，但是npm是需要用到node的，在它使用node的时候找不到，
-就和使用java时没有配置环境变量一样
-**
+**这个时候就不会出现刚才的错误了，原因是因为第一次node没有设置为全局，但是npm是需要用到node的，在它使用node的时候找不到，
+就和使用java时没有配置环境变量一样**
 
 > 为了方便，将npm也是设置为全局，然后到任意目录下执行npm -v
 
