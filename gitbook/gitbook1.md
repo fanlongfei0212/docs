@@ -1,14 +1,10 @@
-# <img src="../images/icon/gitbook.png" style="zoom:10%" />GitBook简介
+# <img src="../images/icon/gitbook.png" width="30" height="30" />GitBook简介
 
 ---
 
-**
-GitBook是基于MarkDown语法的文档整理利器
-**
+**GitBook是基于MarkDown语法的文档整理利器**
 
-**
-使用GitBook可以制作精美的电子书，也可以作为开发项目中的API或者使用手册的文档项目。可以使用GitBook的在线平台进行GitBook的编写，也可以自行搭建GitBook服务，创建GitBook项目进行GitBook的编写，GitBook可以使用Git进行管理
-**
+**使用GitBook可以制作精美的电子书，也可以作为开发项目中的API或者使用手册的文档项目。可以使用GitBook的在线平台进行GitBook的编写，也可以自行搭建GitBook服务，创建GitBook项目进行GitBook的编写，GitBook可以使用Git进行管理**
 
 ![GitBookConcept](../images/gitbook_content/gitbook-concept1.png)
 
