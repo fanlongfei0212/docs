@@ -19,4 +19,5 @@
     * [GitBook 使用](gitbook/gitbook3.md)
 * [Java](java/springboot/springboot1.md)
     * [SpringBoot](java/springboot/springboot1.md)
+    * [SpringCloud](java/springcloud/springcloud1.md)
 * [IntelliJ IDEA](idea/idea1.md)
