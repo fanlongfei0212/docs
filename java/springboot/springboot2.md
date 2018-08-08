@@ -43,7 +43,7 @@
     
     5. 操作系统的环境变量
     
-    6. 通过random.*配置的随机属性
+    6. 通过```random.*```配置的随机属性
     
     7. 位于当前应用jar包之外，针对不同```{profile}```环境的配置文件内容，例如```application-{profile}.properties```或是YAML定义的配置文件
     
