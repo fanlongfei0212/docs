@@ -31,13 +31,5 @@ spring-boot-starter
 
 ## 不同环境下的不同配置
 
-使用@Profile进行不通环境下的配置 开启/关闭
+使用@Profile进行不同环境下的配置 开启/关闭
 在类头使用@Profile("production")指定某些配置类只有在指定的环境中（比如：application.properties中使用spring.profiles.active=production）进行开启
-
-## Actuator
-
-## 资源
-
-* SpringBoot CLI 下载地址
-
-[http://repo.spring.io/release/org/springframework/boot/spring-boot-cli/](http://repo.spring.io/release/org/springframework/boot/spring-boot-cli/)
