@@ -22,4 +22,5 @@
         * [多环境配置](java/springboot/springboot2.md)
     * [SpringCloud](java/springcloud/springcloud1.md)
         * [SpringCloudEureka](java/springcloud/springcloud2.md)
+    * [线程](java/thread/thread1.md)
 * [IntelliJ IDEA](idea/idea1.md)
