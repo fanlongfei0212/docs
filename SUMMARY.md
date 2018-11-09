@@ -24,3 +24,5 @@
         * [SpringCloudEureka](java/springcloud/springcloud2.md)
     * [线程](java/thread/thread1.md)
 * [IntelliJ IDEA](idea/idea1.md)
+* [Git](git/git1.md)
+    * [Git 安装](git/git2.md)
