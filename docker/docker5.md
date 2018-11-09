@@ -1,4 +1,4 @@
-# <img src="../images/icon/docker.jpeg" width="30" height="30" />Docker Dockerfile
+# <img src="../images/icon/docker.png" width="30" height="30" />Docker Dockerfile
 
 ---
 
