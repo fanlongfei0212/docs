@@ -19,7 +19,7 @@
 
 **[IntelliJ IDEA 相关资料](idea/idea1.md)**
 
-**Git基础命令以及相关资料**
+**[Git基础命令以及相关资料](git/git1.md)**
 
 **阿里云相关资料**
 
