@@ -85,7 +85,8 @@ Git的分支默认为Master分支，可以根据实际情况进行修改**
 
 ![JenkinsConcept](../images/jenkins_content/Jenkins-GitHub7.png)
 
-**编写需要在Jenkins服务所执行的Shell;点击【Build】中的【Add build step】选择【执行 shell】，在Command中编写Shell**
+**编写需要在Jenkins服务所执行的Shell;点击【Build】中的【Add build step】选择【执行 shell】，在Command中编
+写Shell，Shell中使用Gradle命令进行项目构建，也可以使用Maven命令进行构建，根据具体实际情况**
 
 ![JenkinsConcept](../images/jenkins_content/Jenkins-GitHub8.png)
 
