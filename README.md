@@ -21,6 +21,8 @@
 
 **[Git基础命令以及相关资料](git/git1.md)**
 
+**[Jenkins相关资料](jenkins/jenkins1.md)**
+
 **阿里云相关资料**
 
 **Gradle相关资料**
