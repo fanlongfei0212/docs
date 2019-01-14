@@ -25,7 +25,7 @@
 
 **阿里云相关资料**
 
-**Gradle相关资料**
+**[Gradle相关资料](gradle/gradle1.md)**
 
 **Liunx基础命令以及相关资料**
 
