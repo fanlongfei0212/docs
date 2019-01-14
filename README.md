@@ -15,7 +15,7 @@
 
 **[GitBook基础命令以及相关资料](gitbook/gitbook1.md)**
 
-**[Java相关资料](java/springboot/springboot1.md)**
+**[Java相关资料](java/jdk/jdk1.md)**
 
 **[IntelliJ IDEA 相关资料](idea/idea1.md)**
 
