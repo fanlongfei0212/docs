@@ -31,3 +31,4 @@
 * [IntelliJ IDEA](idea/idea1.md)
 * [Git](git/git1.md)
     * [Git 安装](git/git2.md)
+* [Gradle](gradle/gradle1.md)
