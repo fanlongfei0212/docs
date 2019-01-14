@@ -8,11 +8,12 @@
 
 1.环境准备
 
-* Jenkins服务器（电脑或远程服务器）
+* Jenkins服务器（电脑或远程服务器），安装Jenkins **【[-> Jenkins安装](/jenkins/jenkins2.md)】**
 
 * 项目部署的远程服务器环境（阿里云、腾讯云、网易云等云主机或物理机）
 
-* Jenkins服务器需要安装、JAVA环境（最好使用1.8及以上）、Git环境、Gradle（或Maven，都可以）
+* Jenkins服务器需要安装JAVA环境（建议1.8及以上）**【[-> Jdk安装](/java/jdk/jdk1.md)】**、
+Git环境 **【[-> Git安装](/git/git2.md)】**、Gradle **【[-> Gradle安装](/gradle/gradle1.md)】**（或Maven）环境
 
 * 远程服务器环境中需要安装JAVA环境
 
